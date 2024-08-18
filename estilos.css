@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+/*
+font-famliy: "Poppins", sans-serif;
+font-family: "Satisfy", cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 243, 227);
+}
+/* ***************** */
+/* SECCION I N I C I O */
+/* ***************** */
+#inicio{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+#inicio header{
+    width: 100%;
+}
+.imagen{
+    width: 100px;
+    padding-top: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+margin: 10px 100px 0 625px;
+    
+}
+#inicio header .contenido-header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    position: relative;
+
+}
+#inicio header .contenido-header nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+}
+#inicio header .contenido-header nav ul{
+    display: flex;
+    list-style: none;
+}
+#inicio header .contenido-header .logo{
+    color: #ff9d4d;
+    font-family: 'Dancing Script';
+    font-size: 22px;
+
+}
+#inicio header .contenido-header nav ul li{
+    text-align: center;
+}
+#inicio header .contenido-header nav ul li i{
+    display: block;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#inicio header .contenido-header nav ul li a{
+    display: block;
+    text-decoration: none;
+    color:#000000;
+    margin: 0px 20px;
+}
+#inicio header .contenido-header nav ul li:hover i{
+    color: #ff9d4d;
+ 
+}
+#inicio header .contenido-header .social a{
+    display: inline-block;
+    background-color: #ff9d4d;
+    text-decoration: none;
+    color: #fffdfd;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+#inicio header .contenido-header .social > i{
+    display: inline-block;
+    color: #a8a8a8;
+    margin-left: 10px;
+}
+.nav-responsive{
+   display: none;
+   font-size: 25px;
+   font-family: 'Dancing Script';
+   color: #ff9d4d;
+}
+/* Carrusel */
+
+#inicio .carrusel{
+    position: relative;
+    height: 200%;
+
+
+}
+#inicio .gallery {
+    width: 100%;
+    height: 100%;
+    
+}
+  
+#inicio .gallery-cell {
+    width: 100%;
+    margin-right: 10px;
+    height: 100%;
+}
+#inicio .gallery-cell img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+/* ***************** */
+/* SECCION S A B O R E S */
+/* ***************** */
+#sabores{
+    padding: 50px 0;
+   
+}
+#sabores h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+     top: 150%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+     font-family: 'Dancing Script';
+     color:#000000;
+}
+
+
+/* ***************** */
+/* SECCION P L A T O S */
+/* ***************** */
+
+.texto{
+    color: #e7b993;
+}
+#platos .fila{
+    max-width: 2000px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+}
+#platos .fila .item{
+    width: 35%;
+    position:relative;
+    overflow: hidden;
+    margin: 90px;
+    margin-top: auto;
+    align-content: center;
+}
+#platos .fila .item img{
+    width: 100%;
+    display: block;
+}
+#platos .fila .item p{
+    position:absolute;
+    width: 100%;
+    bottom: -100%;
+    padding: 10px;
+    background-color:#000000;
+    color: beige;
+    font-family: 'Dancing Script';
+    transition: .5s;
+}
+#platos .fila .item:hover p{
+    bottom: 0; 
+}
+
+
+/* ***************** */
+/* SECCION B L O G*/
+/* ***************** */
+#blog{
+    padding: 60px 0; 
+}
+.galeria-blog{
+    max-width: 800px;
+    margin: 50px auto;
+}
+.galeria-blog .gallery-cell .item{
+    display: flex;
+    align-items: center;
+    margin: 80px;
+}
+.galeria-blog .gallery-cell img{
+    display: block;
+    width: 250px;
+    border-radius: 10%;
+    margin-right: 5px;
+}
+.galeria-blog .gallery-cell h3{
+    margin-bottom: 6px;
+}
+.galeria-blog .gallery-cell p{
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+h3{
+    color: rgb(202, 161, 99);
+    font-family: 'Dancing Script';
+white-space: 15px;
+text-align: center;
+}
+
+/* ***************** */
+/* SECCION C O N T A C TO */
+/* ***************** */
+#contacto{
+    background-color: hsl(0, 0%, 0%);
+    padding: 20px 0;
+    color: #fffdfd;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.video{
+    width: 100%;
+  position: relative;
+    
+}

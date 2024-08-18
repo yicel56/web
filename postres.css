@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(rgba(243, 243, 227),rgb(243, 243, 227));
+}
+
+.ftco-navbar-light {
+  background: transparent !important;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 0;
+}
+
+.titulo {
+  background-color: #000;
+  color: #ff9d4d;
+  text-align: center;
+ font-family: 'Dancing Script';
+ margin: 15px;
+ font-size: 60px;
+}
+.titulo1{
+  background-color: #000;
+  font-size: 80px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.Inicio{
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+  color: #ffffff;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+  background: #c8a97e;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+
+
+/* *************featured section *************** */
+
+.featured {
+  padding-top: 30px;
+  width: 100%;
+  margin-top: -230px;
+  border-top: 1px solid  #ff9d4d;
+}
+
+.featured .featured-menus {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.featured .featured-menus .text {
+  width: 100%;
+}
+
+.featured .featured-menus .text h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+.featured .featured-menus .text p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+.featured .featured-menus .menu-img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.img,
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ftco-wrap-about {
+  background-position: bottom center !important;
+}
+.ftco-wrap-about .heading-section h2 {
+  font-weight: 600 !important;
+}
+
+.ftco-wrap-about .img {
+  width: 100%;
+}
+
+.intro {
+  width: 100%;
+  background:(rgba(243, 243, 227),rgba(243, 243, 227));;
+  padding-top: 102px;
+  padding-bottom: 0px;
+}
+
+.intro_image {
+  width: 80%;
+}
+
+.intro_image img {
+  max-width: 100%;
+}
+
+.intro_content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -100px;
+  width: 600px;
+  background: #ffffff;
+  border: solid 2px #000000;
+  box-shadow: 0px 45px 70px rgba(0, 0, 0, 0.24);
+  z-index: 1;
+  padding-top: 55px;
+  padding-bottom: 59px;
+  padding-left: 70px;
+  padding-right: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 30px;
+}
+
+.intro_subtitle {
+  font-size: 28px;
+  font-family: 'Dancing Script';
+  text-align: center;
+  color: #ff9d4d;
+  
+}
+.fuente{
+  color: #000;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.intro_title h2 {
+  font-size: 40px;
+}
+
+.intro_text {
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#section-counter {
+  margin-top: 50px;
+  position: relative;
+  z-index: -1;
+}
+
+#section-counter::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  z-index: -1;
+  opacity: 0;
+  background: #000000;
+}
+
+.ftco-counter {
+  padding-bottom: 5em;
+  background-position: center center !important;
+}
+
+.ftco-counter .block-18 {
+  display: block;
+  width: 100%;
+}
+
+.ftco-counter .text strong.number {
+  font-weight: 600;
+  font-size: 44px;
+  color: #ff9d4d;
+  display: block;
+  line-height: 1;
+}
+
+
+/* ********gallery section ********* */
+.gallery__pic img {
+  max-width: 90%;
+}
+.postre{
+  width: 900px;
+}
+.imagenesp{
+  text-align: center;
+  color: #000;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.imagenespp{
+  text-align: center;
+  color: #000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+
+.imagenesppp{
+  text-align: center;
+  color: #000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.imagenespppp{
+  text-align: center;
+  color: #000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.bg-light {
+  background: rgba(243, 243, 227) !important;
+}
+
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+.ftco-social {
+  padding: 0;
+}
+.ftco-social li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.makereservation {
+  width: 100%;
+  background: #ffffff;
+}
+
+.makereservation .form-group label {
+  font-weight: 600;
+  color: #000000;
+}
+
+.makereservation .form-group .icon {
+  position: absolute;
+  top: 50% !important;
+  right: 20px;
+  font-size: 14px;
+  transform: translateY(-50%);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.makereservation .form-group .select-wrap {
+  position: relative;
+}
+
+.makereservation .form-group .select-wrap select {
+  appearance: none;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.btn.btn-primary {
+  background: #c8a97e;
+  border: 1px solid #c8a97e;
+  color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  background: transparent;
+  border: 1px solid #c8a97e;
+  color: #000000;
+}
+
+.btn.btn-primary.btn-outline-primary {
+  border: 1px solid #c8a97e;
+  background: transparent;
+  color: #ff9d4d;
+}
+
+.btn.btn-primary.btn-outline-primary:hover {
+  border: 1px solid transparent;
+  background:  #ff9d4d;
+  color: #ffffff;
+}
+
+.single-cat-widget {
+  position: relative;
+  text-align: center;
+}
+
+.single-cat-widget .overlay-bg {
+  background: rgba(0, 0, 0, 0.85);
+  margin: 7%;
+  transition: all 0.4s ease 0s;
+}
+
+.single-cat-widget img {
+  width: 100%;
+}
+.single-cat-widget .content-details {
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  bottom: 0px;
+  position: absolute;
+}
+
+.single-cat-widget .content-details h4 {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.single-cat-widget .content-details span {
+  display: inline-block;
+  background: #ffffff;
+  width: 60%;
+  height: 1%;
+}
+
+.single-cat-widget .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.single-cat-widget:hover .overlay-bg {
+  background: rgba(186, 146, 54, 0.85);
+  margin: 7%;
+  transition: all 0.4s ease 0s;
+}
+.ftco-bg-dark {
+  background: #3c312e;
+}
+
+.ftco-footer {
+  font-size: 14px;
+  background: #141313;
+  padding: 20px 0px 10px 0px;
+}
+.ftco-footer-social li a span {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ftco-footer-social li .fa:hover {
+  color: #000000;
+  margin: 5px;
+
+}
+.firma{
+  text-align: left;
+  font-size: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
